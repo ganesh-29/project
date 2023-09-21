@@ -3,10 +3,10 @@ const homelist = (req,res)=>{
 
 };
 const locationinfo = (req,res)=>{
-    res.render('index',{title:"location"});
+    res.render('location',{title:"location"});
 };
 const addreview = (req,res)=>{
-    res.render('index',{title:"review"});
+    res.render('review',{title:"review"});
 };
 module.exports={
     homelist,

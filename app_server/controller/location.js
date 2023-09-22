@@ -2,14 +2,18 @@ const homelist = (req,res)=>{
     res.render('index',{title:"homepage"});
 
 };
-const locationinfo = (req,res)=>{
-    res.render('location',{title:"location"});
+const fertilizer = (req,res)=>{
+    res.render('fertilizers',{title:"Fertilizers"});
 };
-const addreview = (req,res)=>{
-    res.render('review',{title:"review"});
+const festiside = (req,res)=>{
+    res.render('festisides',{title:"Festiside"});
+};
+const organic = (req,res)=>{
+    res.render('organic',{title:"organicfertilizers"});
 };
 module.exports={
     homelist,
-    locationinfo,
-    addreview
+    fertilizer,
+    festiside,
+    organic,
 };

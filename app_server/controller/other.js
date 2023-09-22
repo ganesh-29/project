@@ -1,4 +1,4 @@
-const about=(req,res)=>{
-    res.render('index',{title:'Fertilizers'});
+const seeds=(req,res)=>{
+    res.render('seeds',{title:'seeds'});
    };
-   module.exports={about};
+   module.exports={seeds};
